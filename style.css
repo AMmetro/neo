@@ -1,0 +1,602 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,* ::after{
+    box-sizing: inherit;
+}
+
+body {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal ;
+font-size: 16px;
+}
+
+button:hover {
+    background-color: tomato;
+    }
+
+/* ------------------------------bg1 wrapper------------------------------------ */
+
+.bg_wrapper1 {
+    height: 84vh;
+    width: 100%;
+    background: url('./assets/images/bg1/bg-image-wrapper.png')
+    no-repeat center;
+    background-size: auto;
+}
+
+span:hover{
+    background-color: darkgray;
+}
+
+.content_wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+.header {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.wrapper { 
+    max-width: 1060px;
+    margin: 0 auto;
+} 
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*вертикальное выравнивание*/
+    justify-content: space-between; /*выравнивание по краям контейнера*/
+    padding-top: 60px;
+}
+
+.header_nav_wraper{
+    /* background-color: burlywood; */
+    width: 720px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+}
+
+.header_nav_left {
+}
+
+.header_nav_right{
+    padding-left: 90px;
+}
+
+
+.header_list{
+      display: flex;
+     /* flex-wrap: wrap; */
+     /*menu able jump to next line after scroling and screen do not go side  */
+}
+
+.header_item {
+    padding-top: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+
+/* .header_item:last-child {
+    margin: 0;
+} */
+
+
+.header_link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header_link.light{
+    background-color: lightslategrey;
+    text-decoration: underline;
+}
+
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: green;
+ }
+
+ 
+
+/* a is "inline" element => write "display block" for style work*/
+/* .header_nav ul li a { 
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 47px;
+    text-align: center;
+    background-color: chartreuse;
+    vertical-align: bottom ; 
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+    color: white;
+    fill: Solid; } */  
+
+    /*margin-top: -50px;
+    z-index: 10; */
+
+.intro_title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+    padding-top: 157px;   
+}
+
+.manifest {
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0px;
+    text-align: center;  
+    width: 450px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main_button {
+    width: 46px;
+    position: relative;
+    padding-left: 435px;
+    padding-top: 33px;
+ }
+
+.get_started_btn {
+    color: white;
+    background-color: #00AFDB;
+    height: 46px;
+    width: 184px;
+    border-radius: 0px;
+    border: none;  
+}
+
+.intro_social_icons {
+position: relative;
+top: 180px;
+width: 170px;
+height: 20px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+h1.webdev_mark {
+    color: yellow;
+    position: relative;
+    width: 50px;
+    top: 163px;
+    left:650px
+}
+
+/* --------------------------bg_wrapper2----------------------------------- */
+.bg2_wrapper {
+    height: 75vh;
+    width: 100%;
+    background: url('./assets/images/bg2/bg-2.png')
+    no-repeat center;
+    background-size: auto;
+}
+
+.bg2_box_wrapper {
+    display: flex;           /*нужен для align-items: center*/
+    flex-wrap: wrap;
+    align-items: center;     /*вертикальное выравнивание по родителю*/
+}
+
+.bg2_left_div {
+    position: relative;
+    left: 1px;
+    top: 85px;
+    width: 407px;
+    height: 233px;
+}
+
+.txt_heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;  
+}
+
+strong { font-weight: bold; }
+
+
+
+.txt_article {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 82px;
+}
+
+.wrapper2_main_button {
+    width: 40px;
+    position: relative;
+    padding-top: 35px;
+ }
+
+ .bg2_right_div {
+    position: relative;
+    left: 245px;
+    top: 88px;
+}
+
+
+/* --------------------------bg_wrapper3----------------------------------- */
+
+.bg3_wrapper {
+    height: 70vh;
+    width: 100%;
+    background: url('./assets/images/bg3/bg.png')
+    no-repeat center;
+    background-size: auto;
+}
+
+
+.bg3_box_wrapper {
+  height: 70vh;
+  display: flex;          /* нужен для align-items: center*/
+  align-items: center;   /*вертикальное выравнивание по родителю*/
+}
+
+.community{
+    display: flex;
+    align-items: center; /*вертикальное выравнивание по родителю*/
+    /* vertical-align: auto; */
+    }
+
+.description_community{
+  width: 270px;
+  padding-top: 1px;
+   }
+
+.description_community_pic{
+    display: block;     /* block is nessesery */
+    margin: 0 auto;
+}
+
+.description_header {
+    width: 170px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 15px auto;
+}
+
+.description_txt {
+    width: 270px;
+    height: 80px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.paginator_content a{
+    color: black;
+}
+
+.paginator_content{
+    position: relative;
+    width: 1100px;
+    padding: 5px;
+    display: block;     /* block is nessesery */
+    margin: 0 auto;
+}
+
+.paginator_number{
+    padding-left: 700px;
+}
+
+.community_slider {
+      display: flex;
+      padding-left: 170px;
+ 
+            position: relative;
+            overflow:hidden;    /* обрезает что выходит за рамки содержимого в .BOX*/
+            width: 1020px;       /* размер рамки под обрезку*/
+            height: 280px;      /* размер рамки под обрезку*/
+    }
+
+ .box {
+     display: flex;
+     }
+
+.community_image {
+    width: 400px;
+    height: 250px;
+    margin: 5px; 
+}
+
+
+/* --------------------------bg_wrapper 4----------------------------------- */
+
+.bg4_wrapper {
+    height:65vh;
+    width: 100%;
+    background: url('./assets/images/bg4/bg-3.png')
+    no-repeat center;
+    background-size: auto;
+}
+
+.bg4_left_div {
+    position: relative;
+    left: 0px;
+    top: 30px;
+    height: 582px;
+    width: 407px;
+}
+
+.bg4_box_wrapper {
+    display: flex;           /*нужен для align-items: center*/
+    flex-wrap: wrap;
+    align-items: center;     /*вертикальное выравнивание по родителю*/
+}
+
+.bg4_right_div {
+    position: relative;
+    left: 130px;
+    top: 55px;
+    width: 407px;
+    height: 233px;
+}
+
+.txt_heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+
+.txt_article {
+    width: 390px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 12px;
+}
+
+.wrapper4_main_button {
+    /* width: 46px; */
+    position: relative;
+    padding-top: 35px;
+    padding-left: 5px;
+ }
+
+ .get_started_btn4 {
+    color: white;
+    background-color: #00AFDB;
+    height: 46px;
+    width: 184px;
+    border-radius: 0px;
+    border: none; 
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center; /* display flex отменяет text-align */
+     
+}
+
+
+/* --------------------------bg_wrapper 5----------------------------------- */
+
+.bg5_wrapper {
+    height: 80vh;
+    width: 100%;
+    background: url('./assets/images/bg5/Frame\ 7.png')
+    no-repeat center;
+    background-size: auto;
+}
+
+.bg5_box_wrapper {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp_div {
+    position: relative;
+   left: 30px;
+   top: 291px;
+}
+
+.input_email_div {
+    display: flex;
+    position: relative;
+  }
+
+.input_email{
+    position: relative;
+    width: 340px;
+    height: 40px;
+    padding-top: 60px;
+}
+
+.input:invalid {
+    border-color: green;
+  }
+
+    .input_email_button {
+    position: relative;
+    color: blue;
+    width: 60px;
+    height: 60px;
+    padding-top: 1px;
+    background-color:blue;
+    background: cyan;
+    }
+
+.signUp_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+    margin: 30px;
+}
+
+
+
+
+    /* --------------------------bg_wrapper 6----------------------------------- */
+
+.bg6_wrapper {
+    /* height: 60vh;
+    width: 100%;
+    background: url('./assets/images/bg6/bg-7.png')
+    no-repeat center;
+    background-size: auto; */
+}
+
+.bg6_box_wrapper {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    top: 0px;
+    height: 330px;
+}
+
+.download_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;   
+    padding-left: 90px ;
+}
+
+
+.download_txt{
+    width: 430px;
+    height: 40px;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 140%; */
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.store_div{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    padding-top: 40px;
+    /* top: 100px; */
+}
+
+.apple_button {
+    padding-right: 20px;
+}
+
+
+ /* --------------------------bg_wrapper 7----------------------------------- */
+
+ .bg7_wrapper {
+    height: 20vh;
+    width: 100%;
+    background: url('./assets/images/bg7/Rectangle\ 7.png') 
+    no-repeat center; 
+     background-size: auto;
+}
+
+
+.footer_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*вертикальное выравнивание*/
+    justify-content: space-between; /*выравнивание по краям контейнера*/
+    padding-top: 65px;
+}
+
+.footer_nav_wraper{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer_list{
+      display: flex;
+     flex-wrap: wrap; /*menu able jump to next line after scroling and screen do not go side  */
+}
+
+.footer_item {
+    padding-top: 15px;
+    margin-right: 1px;
+    margin-left: 30px;
+}
+
+.footer_nav {
+    padding-right: 1px;
+}
+
+.footer_link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer_link:hover, .footer_link:focus, .footer_link:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: yellow;
+ }
+ 
+ /* .footer_divader {
+     color: white;
+     position: relative;
+     padding: 25px;
+     padding-top: 19px;
+ } */
